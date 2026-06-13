@@ -1,15 +1,15 @@
-const MinhaIdade = 17
+const minhaIdade = 17
 
-let MinhaIdadeNoAnoQueVem = MinhaIdade + 1
+const minhaIdadeNoAnoQueVem = minhaIdade + 1
 
-console.log("Minha idade no próximo ano será: " + MinhaIdadeNoAnoQueVem)
+console.log(`Minha idade no próximo ano será: ${minhaIdadeNoAnoQueVem}`)
 
-const IdadeQueVouTrabalhar = 18
+const idadeQueVouTrabalhar = 18
 
-const TempoQueFalta = IdadeQueVouTrabalhar - MinhaIdade
+const tempoQueFalta = idadeQueVouTrabalhar - minhaIdade
 
-const TempoEmMeses = TempoQueFalta * 12
+const tempoEmMeses = tempoQueFalta * 12
 
-const TempoEmDias = TempoEmMeses * 30
+const tempoEmDias = tempoEmMeses * 30
 
-console.log("tempo que falta para eu começar a trabalhar: " + TempoQueFalta + " anos" + " que seria " + TempoEmMeses + " meses ou " + TempoEmDias + " dias")
+console.log(`tempo que falta para eu começar a trabalhar: ${tempoQueFalta} anos, que seria ${tempoEmMeses} meses ou ${tempoEmDias} dias`)
